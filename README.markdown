@@ -14,7 +14,6 @@ To make life easier for me, I have cloned this repo to my CodeSnippets directory
 # Code Snippet Listing <a id="codesnippetlisting"></a>
 
 Each code snippet shortcut is prefixed with **wps** to avoid conflict with other shortcuts. This also groups the code snippets in the Code Completion window.
-
 ## Synthesize
 **Shortcut**: wpsSynthesize  
 **File**: [004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet)  
@@ -207,8 +206,8 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
        }  
        return self;  
     }  
-
       
+    
 # lscs.py Script
 
 `lscs.py` is a python script that lists the code snippets for the current user. The listing shows the title, shortcut, and summary for each code snippet file.
