@@ -53,7 +53,9 @@ def showAsMarkdown(filename, dict):
     
     print '## ' + title
     print '**Shortcut**: ' + shortcut + '  '
-    print '**File**: [' + filename + '](' + filename +')  '
+    
+    url = 'http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/' + filename
+    print '**File**: [' + filename + '](' + url +')  '
 
     scopeText = '**Scope**: '
     for s in scope:

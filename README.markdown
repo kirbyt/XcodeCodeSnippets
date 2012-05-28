@@ -11,13 +11,13 @@ This is a library of my user-defined code snippets for Xcode 4. Free feel to add
 
 To make life easier for me, I have cloned this repo to my CodeSnippets directory. This makes it easier for me to keep this repo up to date and simplifies sharing my code snippets across multiple machines. You can do the same, but I recommend forking this repo first so you can store your own code snippets along with the ones in this collection.
 
-# Code Snippets
+# Code Snippet Listing <a id="codesnippetlisting"></a>
 
 Each code snippet shortcut is prefixed with **wps** to avoid conflict with other shortcuts. This also groups the code snippets in the Code Completion window.
 
 ## Synthesize
 **Shortcut**: wpsSynthesize  
-**File**: [004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet](004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet)  
+**File**: [004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet)  
 **Scope**: ClassImplementation  
 **Summary**: Synthesize property.  
 
@@ -25,7 +25,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## UITableView Stub
 **Shortcut**: wpsTable  
-**File**: [08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet](08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet)  
+**File**: [08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet)  
 **Scope**: ClassImplementation  
 **Summary**: UITableView data and delegate method stubs.  
 
@@ -70,7 +70,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## DLog #define Statements
 **Shortcut**: wpsDLog  
-**File**: [21B87E09-B160-4DA9-85A6-67AB236A2F54.codesnippet](21B87E09-B160-4DA9-85A6-67AB236A2F54.codesnippet)  
+**File**: [21B87E09-B160-4DA9-85A6-67AB236A2F54.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/21B87E09-B160-4DA9-85A6-67AB236A2F54.codesnippet)  
 **Scope**: TopLevel  
 **Summary**: Defines the DLog statements for the pre-compiled header.  
 
@@ -90,7 +90,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## Class Extension
 **Shortcut**: wpsClassExtension  
-**File**: [220BFE9F-59FE-4179-8E5A-759ACD66F1CC.codesnippet](220BFE9F-59FE-4179-8E5A-759ACD66F1CC.codesnippet)  
+**File**: [220BFE9F-59FE-4179-8E5A-759ACD66F1CC.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/220BFE9F-59FE-4179-8E5A-759ACD66F1CC.codesnippet)  
 **Scope**: TopLevel  
 **Summary**: Creates a class externsion.  
 
@@ -101,7 +101,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## Property Assign
 **Shortcut**: wpsPropertyAssign  
-**File**: [2A05C797-72E5-4890-A7CB-2C8A6EF193A5.codesnippet](2A05C797-72E5-4890-A7CB-2C8A6EF193A5.codesnippet)  
+**File**: [2A05C797-72E5-4890-A7CB-2C8A6EF193A5.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/2A05C797-72E5-4890-A7CB-2C8A6EF193A5.codesnippet)  
 **Scope**: All  
 **Summary**: Defines a declared property.  
 
@@ -109,7 +109,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## MIT License Statement
 **Shortcut**: mit  
-**File**: [32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet](32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet)  
+**File**: [32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet)  
 **Scope**: TopLevel  
 **Summary**: File header comment.  
 
@@ -143,7 +143,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## Property Strong
 **Shortcut**: wpsProperty  
-**File**: [3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet](3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet)  
+**File**: [3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet)  
 **Scope**: All  
 **Summary**: Defines a declared property.  
 
@@ -151,7 +151,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## PerformSelector Leak
 **Shortcut**: wpsPerformSelectorLeak  
-**File**: [64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet](64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet)  
+**File**: [64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet)  
 **Scope**: CodeBlock  
 **Summary**: #pragram to ignore PerformSelector leark warning.  
 
@@ -163,7 +163,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## initWithDefaultNib
 **Shortcut**: wpsInitWithDefaultNib  
-**File**: [796A1936-1B22-43E8-B0D4-E7EAA939CFD1.codesnippet](796A1936-1B22-43E8-B0D4-E7EAA939CFD1.codesnippet)  
+**File**: [796A1936-1B22-43E8-B0D4-E7EAA939CFD1.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/796A1936-1B22-43E8-B0D4-E7EAA939CFD1.codesnippet)  
 **Scope**: ClassImplementation  
 **Summary**: initWithDefaultNib method stub.  
 
@@ -179,7 +179,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## initWithDefaultNib Declaration
 **Shortcut**: wpsInitWithDefaultNib  
-**File**: [E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet](E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet)  
+**File**: [E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet)  
 **Scope**: ClassInterfaceMethods  
 **Summary**: Declares - (id)initWithDefaultNib method.  
 
@@ -187,7 +187,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## IBOutlet Property
 **Shortcut**: wpsIBOutlet  
-**File**: [E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet](E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet)  
+**File**: [E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet)  
 **Scope**: ClassInterfaceMethods  
 **Summary**: Defines a declared property outlet.  
 
@@ -195,7 +195,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 ## initWithDefaultWindowNib Declaration
 **Shortcut**: wpsInitWithDefaultWindowNib  
-**File**: [EA4152C2-16A8-4B05-A319-6BA5DD92ADA8.codesnippet](EA4152C2-16A8-4B05-A319-6BA5DD92ADA8.codesnippet)  
+**File**: [EA4152C2-16A8-4B05-A319-6BA5DD92ADA8.codesnippet](http://github.com//kirbyt/Xcode4CodeSnippets/blob/master/EA4152C2-16A8-4B05-A319-6BA5DD92ADA8.codesnippet)  
 **Scope**: ClassImplementation  
 **Summary**: initWithDefaultWindowNib method stub for Mac.  
 
@@ -208,16 +208,13 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
        return self;  
     }  
       
-
-      
-
 # lscs.py Script
 
 `lscs.py` is a python script that lists the code snippets for the current user. The listing shows the title, shortcut, and summary for each code snippet file.
 
     Example: python lscs.py
 
-`lscs.py` is also used to create the list of code snippets shown above. You can do the same by using the `-f markdown` (or `--format=markdown`) command line parameter.
+`lscs.py` is also used to create the [code snippet listing](#codesnippetlisting) shown above. You can do the same by using the `-f markdown` (or `--format=markdown`) command line parameter.
 
     Example: python lscs.py --f markdown
 
