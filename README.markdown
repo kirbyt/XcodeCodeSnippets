@@ -1,15 +1,15 @@
 # Xcode 4 Code Snippets
 
-This is a library of my user-defined code snippets for Xcode 4. Free feel to add them to your own library.
+This is the collection of my user-defined code snippets for Xcode 4. Free feel to add them to your own collection.
 
 ## Install
 
-* Clone or download this repository.
-* Copy the code snippet files that you want into the `~/Library/Developer/Xcode/UserData/CodeSnippets` directory.
+* Clone, fork or [download](https://github.com/kirbyt/Xcode4CodeSnippets/zipball/master) this collection of code snippets.
+* Copy the code snippet files to: `~/Library/Developer/Xcode/UserData/CodeSnippets`
 
 ### Hint
 
-To make life easier for me, I have cloned this repo to my CodeSnippets directory. This makes it easier for me to keep this repo up to date and simplifies sharing my code snippets across multiple machines. You can do the same, but I recommend forking this repo first so you can store your own code snippets along with the ones in this collection.
+To make life easier for me, I clone this repo to my CodeSnippets directory. This makes it easier for me to keep this repo up to date and simplifies sharing my code snippets across multiple machines. You can do the same, but I recommend forking this repo first so you can store your own code snippets along with the ones in this collection.
 
 # Code Snippet Listing <a id="codesnippetlisting"></a>
 
