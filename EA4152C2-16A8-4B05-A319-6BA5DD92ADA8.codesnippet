@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>wpsInitWithDefaultWindowNib</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)initWithDefaultWindowNib
+{
+   self = [super initWithWindowNibName:@"&lt;#NibName#&gt;"];
+   if (self) {
+      &lt;#initializations#&gt;
+   }
+   return self;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EA4152C2-16A8-4B05-A319-6BA5DD92ADA8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>macosx</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>initWithDefaultWindowNib method stub for Mac.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>initWithDefaultWindowNib Declaration</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
