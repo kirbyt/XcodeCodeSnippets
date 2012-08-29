@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>#pragram to ignore PerformSelector leark warning.</string>
+	<string>#pragram to ignore PerformSelector leak warning.</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>PerformSelector Leak</string>
 	<key>IDECodeSnippetUserSnippet</key>
