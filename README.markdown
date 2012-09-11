@@ -152,7 +152,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 **Shortcut**: wpsPerformSelectorLeak  
 **File**: [64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet)  
 **Scope**: CodeBlock  
-**Summary**: #pragram to ignore PerformSelector leark warning.  
+**Summary**: #pragram to ignore PerformSelector leak warning.  
 
     #pragma clang diagnostic push  
     #pragma clang diagnostic ignored "-Warc-performSelector-leaks"  
@@ -207,7 +207,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
        return self;  
     }  
       
-    
+
 # lscs.py Script
 
 `lscs.py` is a python script that lists the code snippets for the current user. The listing shows the title, shortcut, and summary for each code snippet file.
