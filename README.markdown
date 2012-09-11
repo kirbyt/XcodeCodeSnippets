@@ -14,6 +14,7 @@ To make life easier for me, I clone this repo to my CodeSnippets directory. This
 # Code Snippet Listing <a id="codesnippetlisting"></a>
 
 Each code snippet shortcut is prefixed with **wps** to avoid conflict with other shortcuts. This also groups the code snippets in the Code Completion window.
+
 ## Synthesize
 **Shortcut**: wpsSynthesize  
 **File**: [004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet)  
@@ -148,6 +149,16 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
     @property (nonatomic, strong) <#type#> *<#variable#>;  
 
+## Managed Object Context Save
+**Shortcut**: wpsMocSave  
+**File**: [395D1D59-17F0-4524-819F-7B410FA0E902.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/395D1D59-17F0-4524-819F-7B410FA0E902.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**: MOC save wrapped in a ZAssert.  
+
+       NSError *error = nil;  
+       ZAssert([context save:&error], @"Context save error: %@\n%@", [error localizedDescription], [error userInfo]);  
+      
+
 ## PerformSelector Leak
 **Shortcut**: wpsPerformSelectorLeak  
 **File**: [64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/64A56053-8AA1-43C0-A89F-5916D8212A06.codesnippet)  
@@ -190,7 +201,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 **Scope**: ClassInterfaceMethods  
 **Summary**: Defines a declared property outlet.  
 
-    @property (nonatomic, strong) IBOutlet <#type#> *<#variable#>;  
+    @property (nonatomic, weak) IBOutlet <#type#> *<#variable#>;  
 
 ## initWithDefaultWindowNib Declaration
 **Shortcut**: wpsInitWithDefaultWindowNib  
@@ -206,7 +217,6 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
        }  
        return self;  
     }  
-      
 
 # lscs.py Script
 
@@ -216,7 +226,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 `lscs.py` is also used to create the [code snippet listing](#codesnippetlisting) shown above. You can do the same by using the `-f markdown` (or `--format=markdown`) command line parameter.
 
-    Example: python lscs.py --f markdown
+    Example: python lscs.py -f markdown
 
 # Support, Bugs and Feature requests
 
