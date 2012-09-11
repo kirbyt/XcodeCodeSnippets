@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wpsIBOutlet</string>
+	<string>wpsMocSave</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) IBOutlet &lt;#type#&gt; *&lt;#variable#&gt;;</string>
+	<string>   NSError *error = nil;
+   ZAssert([context save:&amp;error], @"Context save error: %@\n%@", [error localizedDescription], [error userInfo]);
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3</string>
+	<string>395D1D59-17F0-4524-819F-7B410FA0E902</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Defines a declared property outlet.</string>
+	<string>MOC save wrapped in a ZAssert.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBOutlet Property</string>
+	<string>Managed Object Context Save</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
