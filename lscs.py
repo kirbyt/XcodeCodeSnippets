@@ -36,7 +36,10 @@ import getopt
 
 def show(filename, dict):
     title = dict['IDECodeSnippetTitle']
-    summary = dict['IDECodeSnippetSummary']
+    if 'IDECodeSnippetSummary' in dict:
+        summary = dict['IDECodeSnippetSummary']
+    else:
+        summary = ''
     shortcut = dict['IDECodeSnippetCompletionPrefix']
     print 'File: ' + filename
     print 'Title: ' + title
@@ -46,7 +49,10 @@ def show(filename, dict):
 
 def showAsMarkdown(filename, dict):
     title = dict['IDECodeSnippetTitle']
-    summary = dict['IDECodeSnippetSummary']
+    if 'IDECodeSnippetSummary' in dict:
+        summary = dict['IDECodeSnippetSummary']
+    else:
+        summary = ''
     shortcut = dict['IDECodeSnippetCompletionPrefix']
     snippet = dict['IDECodeSnippetContents']
     scope = dict['IDECodeSnippetCompletionScopes']

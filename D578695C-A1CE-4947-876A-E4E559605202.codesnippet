@@ -3,23 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wpsIBOutlet</string>
+	<string>wpsDispatchAsyncDefaultQueue</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) IBOutlet &lt;#type#&gt; *&lt;#variable#&gt;;</string>
+	<string>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    &lt;#code#&gt;
+});
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3</string>
+	<string>D578695C-A1CE-4947-876A-E4E559605202</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Defines a declared property outlet.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBOutlet Property</string>
+	<string>Dispatch Async Default Queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

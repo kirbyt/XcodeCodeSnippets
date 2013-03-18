@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wpsIBOutlet</string>
+	<string>wpsRedBorder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) IBOutlet &lt;#type#&gt; *&lt;#variable#&gt;;</string>
+	<string>CALayer *layer = [&lt;#view#&gt; layer];
+layer.borderColor = [[UIColor redColor] CGColor];
+layer.borderWidth = 1.0f;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3</string>
+	<string>EAD65E33-AB85-465C-9243-3772E8AD7A3C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Defines a declared property outlet.</string>
+	<string>Draws a red frame border at runtime.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>IBOutlet Property</string>
+	<string>Red runtime frame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
