@@ -1,20 +1,3 @@
-# Xcode 4 Code Snippets
-
-This is the collection of my user-defined code snippets for Xcode 4. Free feel to add them to your own collection.
-
-## Install
-
-* Clone, fork or [download](https://github.com/kirbyt/Xcode4CodeSnippets/zipball/master) this collection of code snippets.
-* Copy the code snippet files to: `~/Library/Developer/Xcode/UserData/CodeSnippets`
-
-### Hint
-
-To make life easier for me, I clone this repo to my CodeSnippets directory. This makes it easier for me to keep this repo up to date and simplifies sharing my code snippets across multiple machines. You can do the same, but I recommend forking this repo first so you can store your own code snippets along with the ones in this collection.
-
-# Code Snippet Listing <a id="codesnippetlisting"></a>
-
-Each code snippet shortcut is prefixed with **wps** to avoid conflict with other shortcuts. This also groups the code snippets in the Code Completion window.
-
 ## Synthesize
 **Shortcut**: wpsSynthesize  
 **File**: [004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/004CE6E9-88B2-4F67-B4F8-2511884A0968.codesnippet)  
@@ -22,6 +5,17 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 **Summary**: Synthesize property.  
 
     @synthesize <#property#> = _<#ivar#>;  
+
+## Dispatch Async Main Queue
+**Shortcut**: wpsDispatchAsyncMainQueue  
+**File**: [00EC4395-2374-4C2A-8D4C-5B4DF268F9D0.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/00EC4395-2374-4C2A-8D4C-5B4DF268F9D0.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**:   
+
+    dispatch_async(dispatch_get_main_queue(), ^{  
+        <#code#>  
+    });  
+      
 
 ## UITableView Stub
 **Shortcut**: wpsTable  
@@ -187,6 +181,17 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
     }  
       
 
+## Dispatch Async Default Queue
+**Shortcut**: wpsDispatchAsyncDefaultQueue  
+**File**: [D578695C-A1CE-4947-876A-E4E559605202.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/D578695C-A1CE-4947-876A-E4E559605202.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**:   
+
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{  
+        <#code#>  
+    });  
+      
+
 ## initWithDefaultNib Declaration
 **Shortcut**: wpsInitWithDefaultNib  
 **File**: [E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/E811EA70-B05F-4799-89D7-943CAF92AB1D.codesnippet)  
@@ -198,7 +203,7 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 ## IBOutlet Property
 **Shortcut**: wpsIBOutlet  
 **File**: [E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/E996CD71-CF1E-4A4E-AF95-C7B5BBE2BCA3.codesnippet)  
-**Scope**: ClassInterfaceMethods  
+**Scope**: All  
 **Summary**: Defines a declared property outlet.  
 
     @property (nonatomic, weak) IBOutlet <#type#> *<#variable#>;  
@@ -217,41 +222,15 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
        }  
        return self;  
     }  
+      
 
-# lscs.py Script
+## Red runtime frame
+**Shortcut**: wpsRedBorder  
+**File**: [EAD65E33-AB85-465C-9243-3772E8AD7A3C.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/EAD65E33-AB85-465C-9243-3772E8AD7A3C.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**: Draws a red frame border at runtime.  
 
-`lscs.py` is a python script that lists the code snippets for the current user. The listing shows the title, shortcut, and summary for each code snippet file.
+    CALayer *layer = [<#view#> layer];  
+    layer.borderColor = [[UIColor redColor] CGColor];  
+    layer.borderWidth = 1.0f;  
 
-    Example: python lscs.py
-
-`lscs.py` is also used to create the [code snippet listing](#codesnippetlisting) shown above. You can do the same by using the `-f markdown` (or `--format=markdown`) command line parameter.
-
-    Example: python lscs.py -f markdown
-
-# Support, Bugs and Feature requests
-
-There is absolutely no support offered for this collection of code snippets. You're on your own! However, free feel to send me a message or even a pull request if you have an interesting and useful code snippet to share.
-
-# License
-
-The MIT License  
-
-Copyright (c) 2012 White Peak Software Inc
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
