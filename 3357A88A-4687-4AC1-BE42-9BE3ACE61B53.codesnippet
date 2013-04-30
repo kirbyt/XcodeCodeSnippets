@@ -14,8 +14,6 @@
 	<string>3357A88A-4687-4AC1-BE42-9BE3ACE61B53</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Defines a declared property.</string>
 	<key>IDECodeSnippetTitle</key>
