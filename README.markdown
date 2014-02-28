@@ -104,7 +104,7 @@
 ## MIT License Statement
 **Shortcut**: mit  
 **File**: [32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/32D765A1-3B1E-4A88-A13D-F9B4CEB926A5.codesnippet)  
-**Scope**: TopLevel  
+**Scope**: All  
 **Summary**: File header comment.  
 
     /**  
@@ -180,6 +180,14 @@
        return self;  
     }  
       
+
+## Property Weak
+**Shortcut**: wpsPropertyWeak  
+**File**: [C82215E5-4376-4AE3-AAA9-56A37DB14EA9.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/C82215E5-4376-4AE3-AAA9-56A37DB14EA9.codesnippet)  
+**Scope**: All  
+**Summary**: Defines a declared property as weak.  
+
+    @property (nonatomic, weak) <#type#> <#variable#>;  
 
 ## Dispatch Async Default Queue
 **Shortcut**: wpsDispatchAsyncDefaultQueue  
