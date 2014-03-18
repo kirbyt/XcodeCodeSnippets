@@ -96,7 +96,11 @@ Each code snippet shortcut is prefixed with **wps** to avoid conflict with other
 
 
 def printMarkdownFooter():
-  print '''# lscs.py Script
+  print '''# More About Code Snippets
+
+Learn more about using and creating your own Code Snippets from this article, [Be More Productive in Xcode Using Code Snippets](http://www.informit.com/articles/article.aspx?p=1914191).
+
+# lscs.py Script
 
 `lscs.py` is a python script that lists the code snippets for the current user. The listing shows the title, shortcut, and summary for each code snippet file.
 
