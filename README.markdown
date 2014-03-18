@@ -17,6 +17,14 @@
     });  
       
 
+## Property Block
+**Shortcut**: wpsPropertyBlock  
+**File**: [01CD69E2-D847-4F64-A9CB-5EF18876C27F.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/01CD69E2-D847-4F64-A9CB-5EF18876C27F.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: Creates a block as a property  
+
+    @property (nonatomic, copy) void (^<#blockName#>)(<#parameterTypes#>);  
+
 ## UITableView Stub
 **Shortcut**: wpsTable  
 **File**: [08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/08FBEC3D-4375-4E86-9B01-DE3492CF0B02.codesnippet)  
@@ -241,4 +249,20 @@
     CALayer *layer = [<#view#> layer];  
     layer.borderColor = [[UIColor redColor] CGColor];  
     layer.borderWidth = 1.0f;  
+
+## Weak Self
+**Shortcut**: wpsWeakSelf  
+**File**: [F8F948D0-3873-41ED-B391-2EAFF5EEA0E2.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/F8F948D0-3873-41ED-B391-2EAFF5EEA0E2.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**: Creates a weak reference to self  
+
+    __weak __typeof__(self) weakSelf = self;  
+
+## Strong Self
+**Shortcut**: wpsStrongSelf  
+**File**: [FC497447-5006-4EF9-8C3E-A24136122677.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/FC497447-5006-4EF9-8C3E-A24136122677.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**: Creates a strong reference to self.  
+
+    __typeof__(self) strongSelf = weakSelf;  
 
