@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>wpsPropertyStrong</string>
+	<string>wpsPropertyCopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#type#&gt; *&lt;#variable#&gt;;</string>
+	<string>@property (nonatomic, copy) &lt;#type#&gt; *&lt;#variable#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3357A88A-4687-4AC1-BE42-9BE3ACE61B53</string>
+	<string>B4C52A34-411B-48EF-8D22-9917F6757844</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Defines a declared property.</string>
+	<string>Defines a declared property</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Strong</string>
+	<string>Property Copy</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

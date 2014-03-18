@@ -171,8 +171,16 @@
 
     @property (nonatomic, copy) void (^<#blockName#>)(<#parameterTypes#>);  
 
+## Property Copy
+**Shortcut**: wpsPropertyCopy  
+**File**: [B4C52A34-411B-48EF-8D22-9917F6757844.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/B4C52A34-411B-48EF-8D22-9917F6757844.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: Defines a declared property  
+
+    @property (nonatomic, copy) <#type#> *<#variable#>;  
+
 ## Property Strong
-**Shortcut**: wpsProperty  
+**Shortcut**: wpsPropertyStrong  
 **File**: [3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet](http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/3357A88A-4687-4AC1-BE42-9BE3ACE61B53.codesnippet)  
 **Scope**: All  
 **Summary**: Defines a declared property.  
