@@ -18,10 +18,10 @@
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-# 
+#
 # The above copyright notice and this permission notice shall be included in
 # all copies or substantial portions of the Software.
-# 
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -56,10 +56,10 @@ def showAsMarkdown(filename, dict):
     shortcut = dict['IDECodeSnippetCompletionPrefix']
     snippet = dict['IDECodeSnippetContents']
     scope = dict['IDECodeSnippetCompletionScopes']
-    
+
     print '## ' + title
     print '**Shortcut**: ' + shortcut + '  '
-    
+
     url = 'http://github.com/kirbyt/Xcode4CodeSnippets/blob/master/' + filename
     print '**File**: [' + filename + '](' + url +')  '
 
@@ -81,17 +81,26 @@ def main():
     for o, a in opts:
         if o in ('-f', '--format'):
             format = a
-    
+
+    codeSnippets = [];
+
     path = os.path.expanduser('~/Library/Developer/Xcode/UserData/CodeSnippets')
     for dirname, dirnames, filenames in os.walk(path):
         for filename in filenames:
             if filename.endswith('codesnippet'):
                 from AppKit import NSDictionary
-                dict = NSDictionary.dictionaryWithContentsOfFile_(os.path.join(path, filename))
-                if format == 'markdown':
-                    showAsMarkdown(filename, dict)
-                else:
-                    show(filename, dict)
+                snippetDict = NSDictionary.dictionaryWithContentsOfFile_(os.path.join(path, filename))
+                # objDict = NSDictionary.dictionaryWithObjectsAndKeys_(filename,'filename',snippetDict,'snippet')
+                codeSnippets.append({'filename':filename,'snippet':snippetDict});
+
+    sortedCodeSnippets = sorted(codeSnippets, key=lambda k: k['snippet']['IDECodeSnippetTitle'].lower())
+    for objDict in sortedCodeSnippets:
+      filename = objDict['filename']
+      dict = objDict['snippet']
+      if format == 'markdown':
+          showAsMarkdown(filename, dict)
+      else:
+          show(filename, dict)
 
 if __name__ == '__main__':
   sys.exit(main())
